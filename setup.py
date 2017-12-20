@@ -13,7 +13,10 @@ setup(name='lhcb_paper_2017_044',
       author='LHCb Collaboration',
       author_email='lhcb-editorial-board-chair@cern.ch',
       license='MIT',
-      packages=['lhcb_paper_2017_044'],
+      packages=[
+          'lhcb_paper_2017_044',
+          'lhcb_paper_2017_044.tests'
+      ],
       install_requires=[
           'hep_ml',
           'pandas'
