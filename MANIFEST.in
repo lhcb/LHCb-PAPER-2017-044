@@ -1,3 +1,0 @@
-include README.rst
-include LICENSE
-include lhcb_paper_2017_044/data/*.csv.gz
